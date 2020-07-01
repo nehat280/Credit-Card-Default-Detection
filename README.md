@@ -10,10 +10,13 @@ In this notebook i have focused on following parts:
 
 This notebook has following workflow:
 
-1. Understand, Clean and Format Data
+1. Understand, Clean and Format Data (Cleaning data and EDA)
 
-2. Exploratory Data Analysis 
-2.1. Univariate Analysis 2.2. Bivariate Analysis
+2. Examining the Relationships between Features and the Response (Feature Engineering)
+    
+    2.1. Feature Selection using F-test
+    
+    2.2. Fitting model on Features selected using F-test.
 
 Training model with all features
 
