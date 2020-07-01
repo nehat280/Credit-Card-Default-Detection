@@ -10,7 +10,7 @@ This notebook aims to classify clients of a credit card company based on default
 **2. Different Imputaion Stratergies**
 
 
-# This notebook has following workflow:
+## This notebook has following workflow:
 
 **1. Understand, Clean and Format Data (Cleaning data and EDA)**
 
