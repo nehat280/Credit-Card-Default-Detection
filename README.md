@@ -17,14 +17,16 @@ This notebook has following workflow:
 	2.1. Feature Selection based on EDA.
     
     2.2. Optimum Features based on using F-test
+    
         2.2.1.  Fitting model on Features selected using F-test.
+	
         2.2.2.  Plotting ROC-AUC Curve
         
 3.  Cross Validation and Feature Engineering
 
 	3.1. Cross Validation on Logistic Regression model.
     
-    3.2. Using Polynomial features to create new interaction features
+   	3.2. Using Polynomial features to create new interaction features
     
 4. Decision Tree Algorithm
 
