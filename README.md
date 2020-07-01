@@ -1,18 +1,20 @@
 # Credit-Card-Default-Detection
 
 This notebook aims to classify clients of a credit card company based on default. It  is a **Binary Classification Problem** where based on every clients details like History of Past payments, Amount of bill statement, Limit balance thery are classified is they will be in default category or not.
-In this notebook i have focused on following parts:
-1. Feature understanding based on target variable 
-2. Feature Selection
-3. Cross Decision Tree algorithm and Cross validation on it.
-4. Random Forest and Cross validation.
 
 
-This notebook has following workflow:
+**In this notebook i have focused on following parts:**
 
-1. Understand, Clean and Format Data (Cleaning data and EDA)
+**1. Feature understanding , Feature Selection based on target variable** 
 
-2. Examining the Relationships between Features and the Response (Feature Engineering)
+**2. Different Imputaion Stratergies**
+
+
+# This notebook has following workflow:
+
+**1. Understand, Clean and Format Data (Cleaning data and EDA)**
+
+**2. Examining the Relationships between Features and the Response (Feature Engineering)**
 
 	2.1. Feature Selection based on EDA.
     
@@ -22,19 +24,19 @@ This notebook has following workflow:
 	
         2.2.2.  Plotting ROC-AUC Curve
         
-3.  Cross Validation and Feature Engineering
+**3.  Cross Validation and Feature Engineering**
 
 	3.1. Cross Validation on Logistic Regression model.
     
    	3.2. Using Polynomial features to create new interaction features
     
-4. Decision Tree Algorithm
+**4. Decision Tree Algorithm**
 
     4.1. Fitting model with inbuilt default parameters.
     
     4.2. Grid-Search CV for decision tree.
     
-5. Random Forest Model
+**5. Random Forest Model**
 
     5.1. Fitting model with inbuilt default parameters.
     
@@ -42,7 +44,7 @@ This notebook has following workflow:
     
     5.3. Checkerboard Graph for visualisation of GridSearchCV
 
-6. Dealing with Missing Data: Imputation Strategies
+**6. Dealing with Missing Data: Imputation Strategies**
 
     6.1. Method 1: Mode and Random Imputation of PAY_1
     
