@@ -13,19 +13,41 @@ This notebook has following workflow:
 1. Understand, Clean and Format Data (Cleaning data and EDA)
 
 2. Examining the Relationships between Features and the Response (Feature Engineering)
+
+	2.1. Feature Selection based on EDA.
     
-    2.1. Feature Selection using F-test
+    2.2. Optimum Features based on using F-test
+        2.2.1.  Fitting model on Features selected using F-test.
+        2.2.2.  Plotting ROC-AUC Curve
+        
+3.  Cross Validation and Feature Engineering
+
+	3.1. Cross Validation on Logistic Regression model.
     
-    2.2. Fitting model on Features selected using F-test.
+    3.2. Using Polynomial features to create new interaction features
+    
+4. Decision Tree Algorithm
 
-Training model with all features
+    4.1. Fitting model with inbuilt default parameters.
+    
+    4.2. Grid-Search CV for decision tree.
+    
+5. Random Forest Model
 
-Feature Engineering & Selection 4.1 Adding Additional Features
+    5.1. Fitting model with inbuilt default parameters.
+    
+    5.2. Grid-Search CV for decision tree.
+    
+    5.3. Checkerboard Graph for visualisation of GridSearchCV
 
-Fitting the Model with best features. 5.1. Decision tree model 5.2. Random Forest Classifier 5.2.1. Hyper Parameter on Random Forest
+6. Dealing with Missing Data: Imputation Strategies
 
-Visualization of the best model using Confusion Matrix.
+    6.1. Method 1: Mode and Random Imputation of PAY_1
+    
+    6.2. Method 2: A Predictive Model for PAY_1 (model based imputation)
+    
+    6.3. Using the imputation model for PAY_1
+    
+    6.5. Confirming Model Performance on the Unseen Test Set.
+    
 
-Interpret Model Results
-
-Where to Find these Trees?
